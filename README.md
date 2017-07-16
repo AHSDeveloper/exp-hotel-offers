@@ -6,14 +6,14 @@ In the following the details about Hotel Offers Web Application, developed by Al
 What's inside?
 --------------
 
-A web application built usig Java programming language, Maven is a software project management.
+A web application built usig Java programming language and Maven is a software project management.
 
 
-Steps to install local
-----------------------
+Steps to install locally
+------------------------
 1.	Install Java JDK.
 2. 	Install Maven.
-3. 	Install any IDE such as NetBeans, Eclipse  (prefered Netbeans because the application built using it).
+3. 	Install any IDE such as NetBeans, Eclipse  (prefered Netbeans because the application built using it to avoid folder structure conversion problem between IDEs).
 4. 	Install Tomcat (7 or later is prefered).
 5.	Download (Clone) project from 'https://github.com/AHSDeveloper/exp-hotel-offers'
 6.	From command line (cmd.exe) navigate to the project folder and run this command 'mvn package' so maven will create folder 'target' under the project folder.
@@ -33,4 +33,9 @@ Steps to install local
 		-	open browser and navigate to localhost:[port number found in config\folder\server.xml under connector fpr protocol HTTP]/manager
 		-	Enter username and password you created in the tomcat-users.xml
 		-	Deploy the war file which located in the folder project under folder 'target'
+		
+Demo
+-----
+
+A running version of the app available on 'https://exp-hotel-offers.herokuapp.com/'
 		
